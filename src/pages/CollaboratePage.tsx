@@ -6,7 +6,6 @@ import {
   TrendingUp,
   Handshake,
   CheckCircle2,
-  Info,
 } from 'lucide-react';
 import { usePageTitle } from '@/hooks/usePageTitle';
 import { SectionHeading } from '@/components/SectionHeading';
@@ -25,34 +24,34 @@ const iconMap: Record<string, typeof Handshake> = {
 export function CollaboratePage() {
   usePageTitle(
     'Collaborate',
-    'Partner with Numinox. We welcome engagement with research institutions, universities, technology organisations, scientific specialists and development partners.'
+    'Partner with Numinox. We welcome engagement with research institutions, universities, technology organisations, scientific specialists and strategic partners.'
   );
 
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden grid-bg border-b border-ink-200/70 dark:border-ink-800">
-        <div className="container-page py-20 lg:py-28">
-          <p className="section-label mb-4 animate-fade-down">Collaborate With Us</p>
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-medium text-ink-950 dark:text-white max-w-4xl leading-[1.08] animate-fade-up">
-            Building relationships that turn promising concepts into reality.
-          </h1>
-          <p className="mt-7 text-lg sm:text-xl text-ink-600 dark:text-ink-300 max-w-3xl leading-relaxed animate-fade-up animate-delay-200">
-            Meaningful innovation rarely happens in isolation. Numinox welcomes professional
-            engagement with institutions, specialists and organisations whose expertise,
-            infrastructure or perspective can help investigate, validate and advance promising
-            ideas.
-          </p>
+      <section className="relative overflow-hidden grid-bg bg-white dark:bg-ink-950 border-b border-ink-200/80 dark:border-ink-800">
+        <div className="container-page py-16 sm:py-24">
+          <div className="max-w-3xl mx-auto text-center">
+            <p className="section-label mb-4">Collaborate With Us</p>
+            <h1 className="text-4xl sm:text-5xl font-display font-medium text-ink-950 dark:text-white leading-[1.1]">
+              Building partnerships that turn ambitious ideas into impact.
+            </h1>
+            <p className="mt-6 text-base sm:text-xl text-ink-600 dark:text-ink-300 leading-relaxed">
+              We collaborate with institutions, specialists and organisations whose expertise,
+              infrastructure or perspective helps advance high-impact solutions.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Who We Seek to Engage */}
-      <section className="py-20 lg:py-28 bg-white dark:bg-ink-950">
+      <section className="py-16 sm:py-24 bg-white dark:bg-ink-950">
         <div className="container-page">
           <SectionHeading
             label="Who We Engage"
-            title="Organisations and specialists we welcome"
-            description="We are open to conversations across research, product engineering, digital health, academic institutions and early-stage support."
+            title="Organisations and specialists we partner with"
+            description="We welcome collaboration across research, software engineering, digital health, academic institutions and strategic growth."
           />
 
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -60,8 +59,8 @@ export function CollaboratePage() {
               const IconComponent = iconMap[category.icon] || Handshake;
               return (
                 <div key={category.title} className="card card-hover">
-                  <div className="h-11 w-11 rounded-xl bg-accent-50 dark:bg-accent-950/50 text-accent-600 dark:text-accent-400 flex items-center justify-center mb-4">
-                    <IconComponent className="h-5 w-5" strokeWidth={1.6} />
+                  <div className="h-11 w-11 rounded-xl bg-accent-50 dark:bg-accent-950/50 border border-accent-200/70 dark:border-accent-800/70 text-accent-600 dark:text-accent-400 flex items-center justify-center mb-4">
+                    <IconComponent className="h-5 w-5" strokeWidth={1.75} />
                   </div>
                   <h3 className="text-lg font-display font-medium text-ink-900 dark:text-white mb-2">
                     {category.title}
@@ -77,19 +76,19 @@ export function CollaboratePage() {
       </section>
 
       {/* Mutual Expectations */}
-      <section className="py-20 lg:py-24 border-y border-ink-200/70 dark:border-ink-800 bg-ink-50/70 dark:bg-ink-900/30">
+      <section className="py-16 sm:py-24 border-y border-ink-200/80 dark:border-ink-800 bg-ink-50 dark:bg-ink-900/30">
         <div className="container-page">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="card space-y-4">
               <h3 className="text-xl font-display font-medium text-ink-900 dark:text-white">
-                What Numinox brings to collaboration
+                What Numinox brings to partnerships
               </h3>
               <ul className="space-y-3">
                 {[
-                  'Original concepts grounded in curiosity, structured research and feasibility inquiry',
-                  'An interdisciplinary mindset bridging life sciences, digital health, AI and institutional needs',
-                  'Honesty about our current stage of development—without inflated claims',
-                  'Commitment to thoughtful documentation, clear communication and long-term value',
+                  'Original product concepts grounded in structured research and technical feasibility',
+                  'An interdisciplinary team bridging life sciences, digital health, AI and campus infrastructure',
+                  'Clear documentation, focused execution and long-term product commitment',
+                  'Direct, responsive communication across every stage of development',
                 ].map((item) => (
                   <li
                     key={item}
@@ -104,14 +103,14 @@ export function CollaboratePage() {
 
             <div className="card space-y-4">
               <h3 className="text-xl font-display font-medium text-ink-900 dark:text-white">
-                How we approach prospective partnerships
+                How we work together
               </h3>
               <ul className="space-y-3">
                 {[
-                  'Starting with exploratory dialogue to verify mutual alignment and practical feasibility',
-                  'Respecting the intellectual property, institutional scope and permissions of every partner',
-                  'Focusing on validation, technical refinement and responsible execution',
-                  'Building durable professional relationships rather than premature announcements',
+                  'Focused exploratory discussions to align on objectives and technical scope',
+                  'Respecting the intellectual property and institutional standards of every partner',
+                  'Iterative validation, engineering refinement and disciplined delivery',
+                  'Building durable, mutually beneficial professional relationships',
                 ].map((item) => (
                   <li
                     key={item}
@@ -128,7 +127,7 @@ export function CollaboratePage() {
       </section>
 
       {/* Collaboration Inquiry Form */}
-      <section className="py-20 lg:py-28 bg-white dark:bg-ink-950" id="collaboration-form">
+      <section className="py-16 sm:py-24 bg-white dark:bg-ink-950" id="collaboration-form">
         <div className="container-page">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12">
             <div className="lg:col-span-5 space-y-5">
@@ -138,16 +137,9 @@ export function CollaboratePage() {
               </h2>
               <p className="text-base text-ink-600 dark:text-ink-300 leading-relaxed">
                 Share your organisation’s focus, the area you would like to explore together or how
-                you envision collaborating with Numinox. Every message is reviewed directly.
+                you envision collaborating with Numinox. Every inquiry is reviewed directly by our
+                leadership team.
               </p>
-
-              <div className="p-4 rounded-xl bg-ink-50 dark:bg-ink-900 border border-ink-200/80 dark:border-ink-800 flex items-start gap-3">
-                <Info className="h-4 w-4 text-ink-500 shrink-0 mt-0.5" />
-                <p className="text-xs text-ink-500 dark:text-ink-400 leading-relaxed">
-                  Numinox represents all prospective engagements transparently and does not portray
-                  early discussions as formal agreements until mutually established.
-                </p>
-              </div>
             </div>
 
             <div className="lg:col-span-7">
