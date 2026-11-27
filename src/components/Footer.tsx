@@ -38,7 +38,7 @@ export function Footer() {
               {siteConfig.tagline}
             </p>
             <p className="text-sm text-ink-500 dark:text-ink-400 max-w-md leading-relaxed">
-              {siteConfig.positioning}
+              {siteConfig.footerPositioning}
             </p>
             <div className="flex items-start gap-2 text-xs text-ink-500 dark:text-ink-400 pt-1">
               <MapPin className="h-3.5 w-3.5 text-accent-600 dark:text-accent-400 shrink-0 mt-0.5" />
