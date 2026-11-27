@@ -53,7 +53,7 @@ export function HomePage() {
               </span>
             </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-medium text-ink-950 dark:text-white leading-[1.1]">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-display font-medium text-ink-950 dark:text-white leading-[1.12]">
               Exploring Ideas.
               <br />
               <span className="editorial-accent">Developing Possibilities.</span>
@@ -63,16 +63,24 @@ export function HomePage() {
               {siteConfig.positioning}
             </p>
 
-            <div className="mt-9 flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3.5 max-w-md sm:max-w-none mx-auto">
-              <Link to="/our-work" className="btn-primary">
-                Explore Our Work <ArrowRight className="h-4 w-4 shrink-0" />
-              </Link>
-              <Link to="/about" className="btn-secondary">
-                Discover Numinox
-              </Link>
-              <Link to="/collaborate" className="btn-ghost">
-                Collaborate With Us <ArrowUpRight className="h-4 w-4 shrink-0" />
-              </Link>
+            {/* Restructured Action Buttons */}
+            <div className="mt-10 max-w-lg mx-auto">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+                <Link to="/our-work" className="btn-primary w-full">
+                  Explore Our Work <ArrowRight className="h-4 w-4 shrink-0" />
+                </Link>
+                <Link to="/about" className="btn-secondary w-full">
+                  Discover Numinox
+                </Link>
+              </div>
+              <div className="mt-3 flex justify-center">
+                <Link
+                  to="/collaborate"
+                  className="inline-flex items-center gap-1.5 px-4 py-2 text-sm font-medium text-accent-600 dark:text-accent-400 hover:text-accent-700 dark:hover:text-accent-300 transition"
+                >
+                  Collaborate With Us <ArrowUpRight className="h-4 w-4 shrink-0" />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
@@ -87,9 +95,9 @@ export function HomePage() {
               Driven by curiosity, grounded in research.
             </h2>
             <p className="text-base sm:text-lg text-ink-600 dark:text-ink-300 leading-relaxed">
-              Numinox is a student-founded innovation and research organisation established by
-              founders across the University of Ilorin and the University of Ibadan who share a
-              commitment to problem-solving, research, technology and improving existing systems.
+              Numinox is a student-led innovation and research organisation established with a
+              clear commitment to problem-solving, applied research, technology and improving
+              existing systems.
             </p>
             <p className="text-base text-ink-500 dark:text-ink-400 leading-relaxed">
               What started with practical initiatives to improve the university environment has
@@ -184,7 +192,7 @@ export function HomePage() {
             <div className="lg:col-span-7 space-y-6 text-center lg:text-left">
               <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3">
                 <span className="text-xs font-mono font-semibold uppercase tracking-widest text-teal-400">
-                  Flagship Initiative
+                  Flagship Product
                 </span>
                 <StatusBadge status={flagshipWork.status} />
               </div>
@@ -318,7 +326,7 @@ export function HomePage() {
           <SectionHeading
             label="Our Team"
             title="The team behind Numinox"
-            description="Founded by four core members across the University of Ilorin and the University of Ibadan, supported by contributing associate members."
+            description="Led by a dedicated leadership and research team working together to turn promising ideas into practical solutions."
           />
 
           <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
