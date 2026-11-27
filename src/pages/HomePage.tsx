@@ -95,14 +95,14 @@ export function HomePage() {
               Driven by curiosity, grounded in research.
             </h2>
             <p className="text-base sm:text-lg text-ink-600 dark:text-ink-300 leading-relaxed">
-              Numinox is a student-led innovation and research organisation established with a
-              clear commitment to problem-solving, applied research, technology and improving
-              existing systems.
+              An independent innovation and research organisation established with a clear
+              commitment to problem-solving, applied research, technology and improving existing
+              systems.
             </p>
             <p className="text-base text-ink-500 dark:text-ink-400 leading-relaxed">
-              What started with practical initiatives to improve the university environment has
-              grown into an interdisciplinary organisation building solutions across artificial
-              intelligence, digital health, life sciences and everyday systems.
+              What started with practical student-led initiatives to improve the university
+              environment has grown into an interdisciplinary organisation building solutions
+              across artificial intelligence, digital health, life sciences and everyday systems.
             </p>
           </div>
         </div>
@@ -299,7 +299,7 @@ export function HomePage() {
           <SectionHeading
             label="Our Journey"
             title="From campus initiatives to interdisciplinary innovation"
-            description="How Numinox has grown from student-led campus solutions into broader research and product development."
+            description="How Numinox has grown from its student-led beginnings into broader research and product development."
           />
 
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
