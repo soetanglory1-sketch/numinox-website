@@ -60,7 +60,7 @@ export const siteConfig = {
   name: 'Numinox',
   tagline: 'Exploring Ideas. Developing Possibilities.',
   positioning:
-    'Numinox is an innovation and research organisation exploring ideas, advancing research and developing practical solutions across disciplines.',
+    'Numinox is a student-led innovation and research organisation exploring ideas, advancing research and developing practical solutions across disciplines.',
   description:
     'Numinox brings together curiosity, research, technology and collaboration to investigate challenges and build practical solutions.',
   website: 'www.numinox.com.ng',
@@ -110,13 +110,13 @@ export const journeyMilestones: JourneyMilestone[] = [
     phase: 'Phase 01',
     title: 'The Beginning',
     description:
-      'Founded by four students—three from the University of Ilorin and one from the University of Ibadan—brought together by curiosity and a shared commitment to innovation and problem-solving.',
+      'Established as a student-led innovation and research organisation driven by curiosity, problem-solving and a commitment to improving existing systems.',
   },
   {
     phase: 'Phase 02',
     title: 'University Initiatives',
     description:
-      'Initiated practical solutions within the university environment, including dedicated student internet connectivity and departmental digital platforms.',
+      'Initiated and structured practical campus solutions—including dedicated student internet connectivity and a centralised departmental web platform at the University of Ilorin.',
   },
   {
     phase: 'Phase 03',
@@ -151,7 +151,7 @@ export const workItems: WorkItem[] = [
     tagline: 'Personal Health Intelligence & Companion Experience',
     category: 'Digital Health & AI',
     status: 'In development',
-    originContext: 'Flagship Numinox Initiative • In Collaboration with Reach Digital Health',
+    originContext: 'Flagship Numinox Product • In Collaboration with Reach Digital Health',
     summary:
       'A digital health platform bringing personal health information, behavioural patterns, wearable technologies and artificial intelligence together to deliver clear health insights and support informed daily decisions.',
     problem:
@@ -172,13 +172,13 @@ export const workItems: WorkItem[] = [
     tagline: 'Dedicated Student Internet Connectivity Platform',
     category: 'Campus Infrastructure & Digital Access',
     status: 'Active initiative',
-    originContext: 'University Environment Initiative',
+    originContext: 'University of Ilorin Campus Initiative',
     summary:
-      'A student-focused connectivity initiative originated by our team to provide reliable internet access within the university environment through a dedicated Wi-Fi network and accessible connectivity spaces.',
+      'A student-focused connectivity initiative originated by Numinox at the University of Ilorin to provide reliable internet access through a dedicated Wi-Fi network and accessible connectivity spaces.',
     problem:
       'Consistent internet access is essential for academic research, online coursework and digital collaboration, yet students frequently encounter connectivity and cost barriers on campus.',
     proposal:
-      'Deploy a dedicated campus connectivity platform—combining structured Wi-Fi access and purpose-built connectivity zones—tailored around students’ academic and everyday digital needs.',
+      'Deliver a dedicated campus connectivity platform—combining structured Wi-Fi access and purpose-built connectivity zones—tailored around students’ academic and everyday digital needs.',
     objectives: [
       'Deliver reliable, student-focused internet access through a dedicated Wi-Fi platform',
       'Support academic research, online learning and access to digital educational resources',
@@ -191,9 +191,9 @@ export const workItems: WorkItem[] = [
     tagline: 'Centralised Digital Platform for Academic Departments',
     category: 'Institutional Digital Infrastructure',
     status: 'Institutional initiative',
-    originContext: 'University Environment Initiative',
+    originContext: 'University of Ilorin Departmental Initiative',
     summary:
-      'An institutional web platform initiated by our team after identifying the need for structured digital communication and centralised academic resources within a university department.',
+      'An institutional web platform initiated by Numinox at the University of Ilorin to provide structured digital communication and centralised academic resources for an academic department.',
     problem:
       'Without a dedicated web platform, vital academic schedules, handbooks, announcements and departmental updates remain scattered across informal channels.',
     proposal:
