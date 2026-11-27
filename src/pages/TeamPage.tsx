@@ -21,7 +21,7 @@ export function TeamPage() {
               The people shaping Numinox.
             </h1>
             <p className="mt-6 text-base sm:text-xl text-ink-600 dark:text-ink-300 leading-relaxed">
-              A student-led leadership and research team working together with contributing
+              An interdisciplinary leadership and research team working together with contributing
               associates to explore ideas and advance practical initiatives.
             </p>
           </div>
