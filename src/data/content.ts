@@ -60,7 +60,9 @@ export const siteConfig = {
   name: 'Numinox',
   tagline: 'Exploring Ideas. Developing Possibilities.',
   positioning:
-    'Numinox is a student-led innovation and research organisation exploring ideas, advancing research and developing practical solutions across disciplines.',
+    'Numinox is an interdisciplinary innovation and research organisation focused on exploring emerging opportunities, investigating challenges and developing practical solutions through science, technology and collaboration.',
+  footerPositioning:
+    'Numinox is an independent innovation and research organisation exploring ideas, advancing research and developing practical solutions across disciplines.',
   description:
     'Numinox brings together curiosity, research, technology and collaboration to investigate challenges and build practical solutions.',
   website: 'www.numinox.com.ng',
@@ -110,7 +112,7 @@ export const journeyMilestones: JourneyMilestone[] = [
     phase: 'Phase 01',
     title: 'The Beginning',
     description:
-      'Established as a student-led innovation and research organisation driven by curiosity, problem-solving and a commitment to improving existing systems.',
+      'Established as an independent innovation and research initiative, driven by curiosity, problem-solving and a commitment to improving existing systems.',
   },
   {
     phase: 'Phase 02',
@@ -134,13 +136,13 @@ export const journeyMilestones: JourneyMilestone[] = [
     phase: 'Phase 05',
     title: 'Strategic Collaboration',
     description:
-      'Working alongside researchers, institutions, technical specialists and partners such as Reach Digital Health to advance high-impact initiatives.',
+      'Exploring relationships with researchers, institutions, technical specialists and development partners to advance promising initiatives.',
   },
   {
     phase: 'Phase 06',
     title: 'The Future',
     description:
-      'Growing an interdisciplinary organisation delivering practical solutions and meaningful advancements across multiple sectors.',
+      "Expanding Numinox's research capabilities, developing promising initiatives and building collaborations that translate ideas into practical solutions across multiple sectors.",
   },
 ];
 
