@@ -7,7 +7,7 @@ import { approachSteps, journeyMilestones, siteConfig } from '@/data/content';
 export function AboutPage() {
   usePageTitle(
     'About Us',
-    'Learn about Numinox’s origins, mission, vision, philosophy and evolution as a student-led innovation and research organisation.'
+    'Learn about Numinox’s origins, mission, vision, philosophy and evolution as an independent innovation and research organisation.'
   );
 
   return (
@@ -21,9 +21,8 @@ export function AboutPage() {
               Turning curiosity and research into practical possibilities.
             </h1>
             <p className="mt-6 text-base sm:text-xl text-ink-600 dark:text-ink-300 leading-relaxed">
-              Numinox is a student-led innovation and research organisation built on the belief
-              that strong ideas should be explored, researched and developed into meaningful
-              solutions.
+              An independent innovation and research organisation built on the belief that strong
+              ideas should be explored, researched and developed into meaningful solutions.
             </p>
           </div>
         </div>
@@ -46,7 +45,7 @@ export function AboutPage() {
 
             <div className="lg:col-span-7 space-y-5 text-base text-ink-600 dark:text-ink-300 leading-relaxed">
               <p>
-                Numinox began as a student-led initiative driven by a shared commitment to
+                Numinox originated as a student-led initiative driven by a shared commitment to
                 innovation, applied research, technology and institutional problem-solving.
               </p>
               <p>
@@ -140,7 +139,7 @@ export function AboutPage() {
           <SectionHeading
             label="Organisational Evolution"
             title="How Numinox has progressed"
-            description="From student-led campus initiatives to broader research and independent product development."
+            description="From its student-led campus beginnings to broader research and independent product development."
           />
 
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
