@@ -16,19 +16,23 @@ export function Logo({ className = 'h-8 w-8' }: LogoProps) {
         y="1.5"
         width="37"
         height="37"
-        rx="8.5"
-        stroke="currentColor"
-        strokeWidth="1.5"
-        opacity="0.25"
+        rx="9"
+        className="fill-ink-900 dark:fill-ink-800"
       />
       <path
-        d="M12 28V12L20 22L28 12V28"
-        stroke="currentColor"
-        strokeWidth="2.5"
+        d="M9.5 27V13L18.5 27V13"
+        stroke="white"
+        strokeWidth="2.4"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <circle cx="20" cy="30" r="1.75" className="fill-accent-600 dark:fill-accent-400" />
+      <path
+        d="M22.5 13L30.5 27M30.5 13L22.5 27"
+        stroke="#38bdf8"
+        strokeWidth="2.4"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
     </svg>
   );
 }
